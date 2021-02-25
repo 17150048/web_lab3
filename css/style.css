@@ -30,3 +30,34 @@
   height: 50px;
   font-size: 1rem;
 }
+
+/* Комменты */
+
+.add-comment {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.add-comment * {
+  margin-bottom: 1rem;
+}
+
+.comments {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+.comment {
+  width: 100%;
+  padding: 0 .5rem;
+  border: 1px solid black;
+}

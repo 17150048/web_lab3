@@ -9,6 +9,7 @@
 </head>
 <body>
   <div class="wrap">
+    <a href="comments.php">Перейти к комментариям</a>
     <div class="posts">
       <!-- <div class="post">
         <img src="assets/1.jpg" alt="" class="post__image">
