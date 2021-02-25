@@ -8,12 +8,19 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="posts">
-    <div class="post">
-      <img src="assets/1.jpg" alt="" class="post__image">
-      <h2 class="post__head">Пример новости</h2>
-      <p class="post__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo doloribus pariatur architecto voluptatum! Natus, nulla.</p>
+  <div class="wrap">
+    <div class="posts">
+      <!-- <div class="post">
+        <img src="assets/1.jpg" alt="" class="post__image">
+        <h2 class="post__head">Пример новости</h2>
+        <p class="post__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo doloribus pariatur architecto voluptatum! Natus, nulla.</p>
+      </div> -->
     </div>
+    <button id="get-news">Еще новости</button>
   </div>
+  
+
+  <script src="js/jquery.js"></script>
+  <script src="js/news.js"></script>
 </body>
 </html>
