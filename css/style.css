@@ -1,0 +1,16 @@
+.posts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+.post {
+  max-width: 400px;
+  background-color: #73a089;
+  padding: 1rem;
+}
+
+.post__image {
+  width: 100%;
+  height: auto;
+}
